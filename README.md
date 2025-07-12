@@ -35,5 +35,3 @@
 </div>
 
 <img align="right" height="190" src="assets/profile.jpg" />
-
-<img src="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/snake.svg" alt="Snake animation" />
