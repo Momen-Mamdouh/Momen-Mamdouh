@@ -1,6 +1,6 @@
 <h1 align="center">I'm Mo'men Mamdouh<br>Frontend Developer</h1>
 
-<div align="left">
+<div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Momen-Mamdouh.Momen-Mamdouh&left_color=darkgrey&right_color=yellow&left_text=Profile%20Views" />
 </div>
 
