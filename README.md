@@ -61,7 +61,7 @@
 
 ###
 
-<img align="right" height="190" src="https://i.im.ge/2025/07/12/J0lgxJ.112093.jpeg"  />
+<img align="right" height="190" src="./assests/profile.jpg"  />
 
 ###
 
