@@ -1,10 +1,12 @@
 <h1 align="center">I'm Mo'men Mamdouh<br>Frontend Developer</h1>
 
-<div align="center">
+<div align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Momen-Mamdouh.Momen-Mamdouh&left_color=darkgrey&right_color=yellow&left_text=Profile%20Views" />
 </div>
 
-<div align="left">
+<img align="right" height="190" src="assets/profile.jpg" />
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Momen-Mamdouh&show_icons=true&count_private=true&theme=react&hide_border=false" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Momen-Mamdouh&theme=react&hide_border=false" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Momen-Mamdouh&layout=compact&theme=react&hide_border=false" height="150" />
@@ -34,4 +36,4 @@
   </a>
 </div>
 
-<img align="right" height="190" src="assets/profile.jpg" />
+
