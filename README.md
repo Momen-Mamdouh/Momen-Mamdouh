@@ -4,7 +4,7 @@
   <h2>Software Engineer</h2>
   <p>Welcome to my GitHub Profile!</p>
 
-  [![Views](https://visitcount.itsvg.in/api?id=Momen-Mamdouh&label=PROFILE%20VIEWS&color=3498db&labelColor=333333)](https://visitcount.itsvg.in)
+ ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Momen-Mamdouh&show_icons=true&theme=tokyonight)
   [![Followers](https://img.shields.io/github/followers/Momen-Mamdouh?label=FOLLOWERS&style=flat&color=3498db&labelColor=333333)](https://github.com/Momen-Mamdouh)
   [![Stars](https://img.shields.io/github/stars/Momen-Mamdouh?label=STARS&style=flat&color=f1c40f&labelColor=333333)](https://github.com/Momen-Mamdouh)
 </div>
@@ -56,9 +56,9 @@ MongoDB, MySQL, Firebase<br>
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Momen-Mamdouh&show_icons=true&theme=tokyonight&hide_border=true)  
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Momen-Mamdouh&theme=tokyonight&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Momen-Mamdouh&layout=compact&theme=tokyonight&hide_border=true)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Momen-Mamdouh&show_icons=true&theme=tokyonight) 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Momen-Mamdouh&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Momen-Mamdouh&layout=compact&theme=tokyonight)
 
 </div>
 
