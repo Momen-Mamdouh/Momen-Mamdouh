@@ -22,6 +22,8 @@ Currently focused on AI-assisted document and proposal tooling.
   <tr>
     <td width="50%" valign="top">
 
+<img alt="Document Generator screenshot" src="assets/projects/document-generator.png" width="100%" />
+
 <b>Document Generator</b>
 
 <sub>Turns unstructured input into finished, professionally formatted documents using AI and predefined templates.</sub>
@@ -32,6 +34,8 @@ Currently focused on AI-assisted document and proposal tooling.
 
 </td>
     <td width="50%" valign="top">
+
+<img alt="Egyptian Red Crescent — Operations Dashboard screenshot" src="assets/projects/egyptian-red-crescent-frontend.png" width="100%" />
 
 <b>Egyptian Red Crescent — Operations Dashboard</b>
 
@@ -45,6 +49,8 @@ Currently focused on AI-assisted document and proposal tooling.
   </tr>
   <tr>
     <td width="50%" valign="top">
+
+<img alt="AI Proposal Assistant screenshot" src="assets/projects/ai-proposal-assistant-frontend.png" width="100%" />
 
 <b>AI Proposal Assistant</b>
 
@@ -69,6 +75,8 @@ Currently focused on AI-assisted document and proposal tooling.
   </tr>
   <tr>
     <td width="50%" valign="top">
+
+<img alt="Invento AI screenshot" src="assets/projects/invento-ai.png" width="100%" />
 
 <a href="https://github.com/mohamedtaghian/Invento-AI"><b>Invento AI</b></a>
 
