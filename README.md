@@ -10,11 +10,18 @@
 
 **Mo'men Mamdouh** — Full-Stack Software Engineer based in Egypt 🇪🇬
 
-I build production web applications end to end: Angular and React on the front, Node, NestJS and
-Express behind them, with AI woven in where it removes real manual work rather than as decoration.
-Currently focused on AI-assisted document and proposal tooling.
+I architect and deliver production-grade web applications end to end:
+* **Frontend & UI**: Angular, React, Next.js, Vue.js, Nuxt.js, TypeScript, Tailwind CSS, Spartan UI & Material UI
+* **Backend & APIs**: Node.js, NestJS, Express.js, FastAPI (Python), Go (Golang), RESTful APIs & WebSockets
+* **State & Data**: Redux Toolkit, Zustand, Pinia, TanStack Query, Redis, MongoDB, PostgreSQL & MySQL
+* **DevOps & AI**: OpenAI & Gemini API integrations, Docker, Turborepo, pnpm & automated CI/CD pipelines
 
-## 🚀 &nbsp;Featured Projects
+<br/>
+
+<details open>
+<summary>&nbsp;<b><font size="4">🚀 &nbsp;Featured Projects</font></b></summary>
+
+<br/>
 
 <!-- PROJECTS:START -->
 
@@ -97,51 +104,88 @@ Currently focused on AI-assisted document and proposal tooling.
 
 <!-- PROJECTS:END -->
 
-## 🧰 &nbsp;Tech Stack
+</details>
+
+<br/>
+
+<details open>
+<summary>&nbsp;<b><font size="4">🧰 &nbsp;Tech Stack & Ecosystem</font></b></summary>
+
+<br/>
 
 <div align="center">
 
-  <!-- Frontend & UI -->
   <p><b>Frontend & UI</b></p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=angular,react,nextjs,vue,nuxtjs,ts,js,html,css,sass,tailwind,bootstrap,materialui&theme=dark&perline=7" />
-    <img alt="Angular, React, Next.js, Vue, Nuxt.js, TypeScript, JavaScript, HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI"
-      src="https://skillicons.dev/icons?i=angular,react,nextjs,vue,nuxtjs,ts,js,html,css,sass,tailwind,bootstrap,materialui&theme=light&perline=7" />
-  </picture>
+  <p>
+    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/Nuxt.js-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=00DC82" alt="Nuxt.js" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
+    <img src="https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white" alt="PostCSS" />
+    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
+    <img src="https://img.shields.io/badge/Spartan_UI-0D1117?style=for-the-badge&logo=angular&logoColor=22EBF7" alt="Spartan UI" />
+    <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  </p>
 
-  <br/><br/>
+  <br/>
 
-  <!-- Backend, State & Databases -->
-  <p><b>Backend, State & Databases</b></p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,go,redux,pinia,redis,mongodb,postgres,mysql&theme=dark&perline=6" />
-    <img alt="Node.js, NestJS, Express, FastAPI, Go, Redux, Pinia, Redis, MongoDB, PostgreSQL, MySQL"
-      src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,go,redux,pinia,redis,mongodb,postgres,mysql&theme=light&perline=6" />
-  </picture>
+  <p><b>Backend & APIs</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" alt="REST APIs" />
+    <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets" />
+  </p>
 
-  <br/><br/>
+  <br/>
 
-  <!-- DevOps, Testing & Tooling -->
-  <p><b>DevOps, Testing & Tooling</b></p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=vite,docker,git,github,githubactions,pnpm,npm,postman,vitest&theme=dark&perline=9" />
-    <img alt="Vite, Docker, Git, GitHub, GitHub Actions, pnpm, npm, Postman, Vitest"
-      src="https://skillicons.dev/icons?i=vite,docker,git,github,githubactions,pnpm,npm,postman,vitest&theme=light&perline=9" />
-  </picture>
+  <p><b>State Management & Data Layer</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit" />
+    <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white" alt="Zustand" />
+    <img src="https://img.shields.io/badge/Pinia-FFE56B?style=for-the-badge&logo=vuedotjs&logoColor=black" alt="Pinia" />
+    <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query" />
+    <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" />
+    <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
+    <img src="https://img.shields.io/badge/Yup-D14C4C?style=for-the-badge&logo=javascript&logoColor=white" alt="Yup" />
+    <img src="https://img.shields.io/badge/Formik-0052CC?style=for-the-badge&logo=react&logoColor=white" alt="Formik" />
+  </p>
+
+  <br/>
+
+  <p><b>Databases, Caching & DevOps</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm" />
+    <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
+  </p>
 
 </div>
 
 <br/>
 
 <details>
-<summary>&nbsp;<b>Explore Full Toolkit & Ecosystem</b></summary>
+<summary>&nbsp;<b>Explore Full Categorized Toolkit & Architecture</b></summary>
 
 <br/>
 
-| Domain | Technologies & Libraries |
+| Domain | Technologies, Libraries & Tools |
 | :--- | :--- |
 | **Frontend & UI** | Angular · React · Next.js · Vue.js · Nuxt.js · TypeScript · JavaScript · HTML5 · CSS3 · Sass · PostCSS · Tailwind CSS · Bootstrap · [Spartan UI](https://spartan.ng) · [shadcn/ui](https://ui.shadcn.com) · [Material UI (MUI)](https://mui.com) · Vite · Storybook · Lucide Icons |
 | **State Management & Data** | Redux Toolkit · Zustand · Pinia · TanStack Query (React Query) · Axios · Formik · React Hook Form · Zod · Yup |
@@ -154,7 +198,14 @@ Currently focused on AI-assisted document and proposal tooling.
 
 </details>
 
-## 📊 &nbsp;GitHub Analytics
+</details>
+
+<br/>
+
+<details open>
+<summary>&nbsp;<b><font size="4">📊 &nbsp;GitHub Analytics & Metrics</font></b></summary>
+
+<br/>
 
 <div align="center">
 
@@ -180,30 +231,46 @@ Currently focused on AI-assisted document and proposal tooling.
 
 </div>
 
-## 🐍 &nbsp;Contribution Snake
+</details>
+
+<br/>
+
+<details open>
+<summary>&nbsp;<b><font size="4">🐍 &nbsp;Contribution Snake</font></b></summary>
+
+<br/>
 
 <div align="center">
 
   <p>
-    <img src="https://img.shields.io/badge/Contribution_Stream-0D1117?style=for-the-badge&logo=github&logoColor=22EBF7&labelColor=0D1117" alt="Activity" />
-    <img src="https://img.shields.io/badge/Live_Graph-22EBF7?style=for-the-badge&logoColor=0D1117&labelColor=0D1117&color=22EBF7" alt="Live" />
+    <a href="https://github.com/Momen-Mamdouh"><img src="https://img.shields.io/badge/Contribution_Stream-0D1117?style=for-the-badge&logo=github&logoColor=22EBF7&labelColor=0D1117" alt="Activity" /></a>
+    <a href="https://github.com/Momen-Mamdouh?tab=overview"><img src="https://img.shields.io/badge/Status-Live_Eating_Graph-22EBF7?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117" alt="Live Graph" /></a>
   </p>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation eating Mo'men Mamdouh's GitHub contribution graph"
-      src="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+  <a href="https://github.com/Momen-Mamdouh?tab=overview">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake.svg" />
+      <img alt="Snake animation eating Mo'men Mamdouh's GitHub contribution graph"
+        src="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    </picture>
+  </a>
 
   <br/>
-  <sub><i>Interactive contribution tracker — animated eating real-time commits across repositories</i></sub>
+  <sub><i>Interactive contribution tracker — hover over tiles or click to view live activity breakdown</i></sub>
 
 </div>
 
-## 📫 &nbsp;Connect
+</details>
+
+<br/>
+
+<details open>
+<summary>&nbsp;<b><font size="4">📫 &nbsp;Connect</font></b></summary>
+
+<br/>
 
 <div align="center">
 
@@ -212,5 +279,9 @@ Currently focused on AI-assisted document and proposal tooling.
 <a href="https://wa.me/201146459858"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-0D1117?style=for-the-badge&logo=whatsapp&logoColor=22EBF7&labelColor=0D1117" /></a>
 
 </div>
+
+</details>
+
+<br/>
 
 <img alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:22EBF7,100:0D1117&height=100&section=footer" width="100%" />
