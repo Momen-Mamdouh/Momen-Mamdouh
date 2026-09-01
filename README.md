@@ -100,28 +100,57 @@ Currently focused on AI-assisted document and proposal tooling.
 ## 🧰 &nbsp;Tech Stack
 
 <div align="center">
+
+  <!-- Frontend & UI -->
+  <p><b>Frontend & UI</b></p>
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=angular,react,nextjs,vue,ts,js,html,css,sass,tailwind,bootstrap,nodejs,nestjs,express,mongodb,postgres,mysql,vite,npm,git,github,vscode,ps,cpp,py&theme=dark&perline=13" />
-    <img alt="Angular, React, Next.js, Vue, TypeScript, JavaScript, HTML, CSS, Sass, Tailwind, Bootstrap, Node.js, NestJS, Express, MongoDB, PostgreSQL, MySQL, Vite, npm, Git, GitHub, VS Code, Photoshop, C++, Python"
-      src="https://skillicons.dev/icons?i=angular,react,nextjs,vue,ts,js,html,css,sass,tailwind,bootstrap,nodejs,nestjs,express,mongodb,postgres,mysql,vite,npm,git,github,vscode,ps,cpp,py&theme=light&perline=13" />
+      srcset="https://skillicons.dev/icons?i=angular,react,nextjs,vue,nuxtjs,ts,js,html,css,sass,tailwind,bootstrap,materialui&theme=dark&perline=7" />
+    <img alt="Angular, React, Next.js, Vue, Nuxt.js, TypeScript, JavaScript, HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI"
+      src="https://skillicons.dev/icons?i=angular,react,nextjs,vue,nuxtjs,ts,js,html,css,sass,tailwind,bootstrap,materialui&theme=light&perline=7" />
   </picture>
-</div>
 
-<details>
-<summary>&nbsp;<b>Full toolkit</b></summary>
+  <br/><br/>
+
+  <!-- Backend, State & Databases -->
+  <p><b>Backend, State & Databases</b></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,go,redux,pinia,redis,mongodb,postgres,mysql&theme=dark&perline=6" />
+    <img alt="Node.js, NestJS, Express, FastAPI, Go, Redux, Pinia, Redis, MongoDB, PostgreSQL, MySQL"
+      src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,go,redux,pinia,redis,mongodb,postgres,mysql&theme=light&perline=6" />
+  </picture>
+
+  <br/><br/>
+
+  <!-- DevOps, Testing & Tooling -->
+  <p><b>DevOps, Testing & Tooling</b></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://skillicons.dev/icons?i=vite,docker,git,github,githubactions,pnpm,npm,postman,vitest&theme=dark&perline=9" />
+    <img alt="Vite, Docker, Git, GitHub, GitHub Actions, pnpm, npm, Postman, Vitest"
+      src="https://skillicons.dev/icons?i=vite,docker,git,github,githubactions,pnpm,npm,postman,vitest&theme=light&perline=9" />
+  </picture>
+
+</div>
 
 <br/>
 
-| Area | Tools |
+<details>
+<summary>&nbsp;<b>Explore Full Toolkit & Ecosystem</b></summary>
+
+<br/>
+
+| Domain | Technologies & Libraries |
 | :--- | :--- |
-| **Frontend** | Angular · React · Next.js · Vue · TypeScript · JavaScript · HTML · CSS · Sass · Tailwind CSS · Bootstrap · [shadcn/ui](https://ui.shadcn.com) |
-| **State & data** | Redux Toolkit · TanStack Query · Formik · Zod |
-| **Backend** | Node.js · NestJS · Express |
-| **Databases** | MongoDB · PostgreSQL · MySQL |
-| **Tooling** | Vite · npm · pnpm · Turborepo · PostCSS · Docker · Git · GitHub Actions · VS Code |
-| **Testing** | Vitest · React Testing Library |
-| **Also** | C · C++ · Python · Photoshop |
+| **Frontend & UI** | Angular · React · Next.js · Vue.js · Nuxt.js · TypeScript · JavaScript · HTML5 · CSS3 · Sass · PostCSS · Tailwind CSS · Bootstrap · [Spartan UI](https://spartan.ng) · [shadcn/ui](https://ui.shadcn.com) · [Material UI (MUI)](https://mui.com) · Vite · Storybook · Lucide Icons |
+| **State Management & Data** | Redux Toolkit · Zustand · Pinia · TanStack Query (React Query) · Axios · Formik · React Hook Form · Zod · Yup |
+| **Backend & Architecture** | Node.js · NestJS · Express.js · FastAPI (Python) · Go (Golang) · RESTful APIs · WebSockets (Socket.io) · Clean Architecture · Modular Monoliths · Microservices |
+| **Databases & Caching** | MongoDB · PostgreSQL · MySQL · Redis · Supabase · Firebase · Mongoose · Prisma · TypeORM |
+| **Testing & Quality** | Vitest · Jest · React Testing Library · ESLint · Prettier · Husky |
+| **DevOps, Monorepos & Cloud** | Docker · Docker Compose · GitHub Actions · CI/CD · Vercel · Render · Railway · AWS (S3 basics) · Nginx · Turborepo · pnpm · npm · Git · GitHub · Postman · Linux / Bash |
+| **AI & Modern Integrations** | OpenAI API · Google Gemini API · LangChain · Vercel AI SDK |
+| **Other Languages** | C · C++ · Python · Photoshop |
 
 </details>
 
@@ -154,12 +183,24 @@ Currently focused on AI-assisted document and proposal tooling.
 ## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
+
+  <p>
+    <img src="https://img.shields.io/badge/Contribution_Stream-0D1117?style=for-the-badge&logo=github&logoColor=22EBF7&labelColor=0D1117" alt="Activity" />
+    <img src="https://img.shields.io/badge/Live_Graph-22EBF7?style=for-the-badge&logoColor=0D1117&labelColor=0D1117&color=22EBF7" alt="Live" />
+  </p>
+
   <picture>
     <source media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake.svg" />
     <img alt="Snake animation eating Mo'men Mamdouh's GitHub contribution graph"
-      src="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake.svg" />
+      src="https://raw.githubusercontent.com/Momen-Mamdouh/Momen-Mamdouh/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
+
+  <br/>
+  <sub><i>Interactive contribution tracker — animated eating real-time commits across repositories</i></sub>
+
 </div>
 
 ## 📫 &nbsp;Connect
