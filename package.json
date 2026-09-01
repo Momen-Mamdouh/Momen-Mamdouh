@@ -1,0 +1,14 @@
+{
+  "name": "momen-mamdouh-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub profile README — project cards generated from projects.json",
+  "scripts": {
+    "cards": "node scripts/build-cards.mjs",
+    "cards:shots": "node scripts/build-cards.mjs --shots"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1"
+  }
+}

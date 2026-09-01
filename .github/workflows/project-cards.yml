@@ -1,0 +1,65 @@
+name: Build project cards
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - projects.json
+      - scripts/build-cards.mjs
+      - assets/projects/**
+  schedule:
+    # Monthly, so screenshots of live demos stay current.
+    - cron: "0 3 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-cards
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Playwright is only needed when a project actually has a `live` URL to shoot.
+      # Skipping the install otherwise keeps the common path fast.
+      - id: check
+        run: |
+          if node scripts/build-cards.mjs --has-live; then
+            echo "shots=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "shots=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.check.outputs.shots == 'true'
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+
+      - name: Regenerate cards
+        run: |
+          if [ "${{ steps.check.outputs.shots }}" = "true" ]; then
+            node scripts/build-cards.mjs --shots
+          else
+            node scripts/build-cards.mjs
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/projects
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "chore: regenerate project cards from projects.json"
+            git push
+          fi

@@ -1,0 +1,75 @@
+{
+  "$comment": [
+    "Single source of truth for the Featured Projects section of README.md.",
+    "Edit this file, then run `npm run cards` (or let the project-cards workflow run) to",
+    "regenerate the block between <!-- PROJECTS:START --> and <!-- PROJECTS:END -->.",
+    "",
+    "Image resolution order for each project, first match wins:",
+    "  1. assets/projects/<slug>.png  ..  if the file exists it is always used.",
+    "                                     Drop your own screenshot here to control the card.",
+    "  2. `live` URL                  ..  CI screenshots it into assets/projects/<slug>.png.",
+    "  3. neither                     ..  the card renders as text only, no broken image.",
+    "",
+    "Fields:",
+    "  slug      required, lowercase. Also the screenshot filename.",
+    "  name      display title.",
+    "  repo      owner/name. Omit or null when the repo is private or you don't want a link.",
+    "  private   true renders a 'Private repository' note and never emits a repo link.",
+    "  live      public demo URL, or null.",
+    "  featured  true = card in the main grid. false = compact mention line underneath.",
+    "  role      optional, e.g. for collaborations where you are not the repo owner."
+  ],
+  "projects": [
+    {
+      "slug": "document-generator",
+      "name": "Document Generator",
+      "tagline": "Turns unstructured input into finished, professionally formatted documents using AI and predefined templates.",
+      "stack": ["Angular", "Express", "MongoDB", "OpenAI", "Gemini", "TypeScript"],
+      "repo": null,
+      "private": true,
+      "live": null,
+      "featured": true
+    },
+    {
+      "slug": "egyptian-red-crescent-frontend",
+      "name": "Egyptian Red Crescent — Operations Dashboard",
+      "tagline": "Dashboard for coordinating daily field missions, built for the Egyptian Red Crescent.",
+      "stack": ["React", "TypeScript", "Redux Toolkit", "TanStack Query", "Tailwind", "shadcn/ui"],
+      "repo": null,
+      "private": true,
+      "live": null,
+      "featured": true
+    },
+    {
+      "slug": "ai-proposal-assistant-frontend",
+      "name": "AI Proposal Assistant",
+      "tagline": "Generates client proposals from your CV, GitHub activity and portfolio, with a community layer for sharing them.",
+      "stack": ["Angular", "TypeScript", "Tailwind"],
+      "repo": null,
+      "private": true,
+      "live": null,
+      "featured": true
+    },
+    {
+      "slug": "portfolio-cms",
+      "name": "Portfolio CMS",
+      "tagline": "Headless content system for developer portfolios and CVs. pnpm + Turborepo monorepo, Dockerised, tested with Vitest.",
+      "stack": ["TypeScript", "Turborepo", "pnpm", "Docker", "Vitest"],
+      "repo": null,
+      "private": true,
+      "live": null,
+      "featured": true
+    },
+    {
+      "slug": "invento-ai",
+      "name": "Invento AI",
+      "tagline": "Inventory platform with server-side rendering. Built together with @mohamedtaghian.",
+      "stack": ["Angular", "Express", "SSR", "Tailwind", "TypeScript"],
+      "repo": "mohamedtaghian/Invento-AI",
+      "private": false,
+      "live": null,
+      "featured": true,
+      "role": "Collaboration"
+    }
+  ]
+}
